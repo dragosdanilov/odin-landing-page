@@ -158,3 +158,54 @@ img {
 .author {
     font-size: 18px;
 }
+
+/* ////////////////////////////////////////////// */
+
+.fourth-cta {
+    display: flex;
+    height: 20em;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-cta {
+    height: 8em;
+    padding: 0 80px 0 80px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.su-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #f9faf8;
+}
+
+.su-header {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.su-subtext {
+    margin-top: 0;
+}
+
+.su-button-2 {
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 6px 20px 6px 20px;
+    color: #f9faf8;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.su-button-2:hover {
+    cursor: pointer;
+    background-color: #3881f6d6;
+    opacity: 0.9;
+}
