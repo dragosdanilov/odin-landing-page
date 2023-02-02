@@ -209,3 +209,15 @@ img {
     background-color: #3881f6d6;
     opacity: 0.9;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #f9faf8;
+}
