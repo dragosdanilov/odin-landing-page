@@ -26,6 +26,14 @@ body {
 .links a {
     text-decoration: none;
     color: #e5e7eb;
+    transition: 0.2s;
+}
+
+.links a:hover {
+    color: #93b2e4;
+    text-decoration: underline;
+    opacity: 1;
+    text-underline-offset: 8px;
 }
 
 /* /////////////////////////////////////////////////////// */
