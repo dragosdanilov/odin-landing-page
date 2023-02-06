@@ -36,8 +36,6 @@ body {
     text-underline-offset: 8px;
 }
 
-/* /////////////////////////////////////////////////////// */
-
 .main-cont {
     display: flex;
     background-color: #1f2937;
@@ -67,6 +65,7 @@ body {
     padding: 6px 20px 6px 20px;
     color: rgb(255, 255, 255);
     transition: 0.2s;
+    font-weight: bold;
 }
 
 .sign-up:hover {
@@ -97,8 +96,6 @@ body {
 img {
     max-width: 400px;
 }
-
-/* ///////////////////////////////////////////// */
 
 .second-cta {
     display: flex;
@@ -142,8 +139,6 @@ img {
     color: #1f2937;
 }
 
-/* /////////////////////////////////////////// */
-
 .third-cta {
     display: flex;
     flex-direction: column;
@@ -166,8 +161,6 @@ img {
 .author {
     font-size: 18px;
 }
-
-/* ////////////////////////////////////////////// */
 
 .fourth-cta {
     display: flex;
