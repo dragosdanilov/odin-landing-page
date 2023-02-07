@@ -11,9 +11,26 @@ body {
     padding: 10px 140px 10px 140px;
 }
 
+.logoCTA {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .logo {
+    max-width: 70px;
+    filter: brightness(0) invert(1);
+}
+
+.logoCTA:hover {
+    filter: invert(44%) sepia(40%) saturate(5878%) hue-rotate(206deg) brightness(105%) contrast(93%);
+    cursor: pointer;
+}
+
+.logoName {
+    color: #f9faf8;
     font-size: 24px;
-    font-weight: bold;
+    text-decoration: none;
 }
 
 .links {
