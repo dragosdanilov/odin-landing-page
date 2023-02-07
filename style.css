@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif, serif;
+}
+
 body {
     margin: 0;
 }
@@ -110,8 +114,15 @@ body {
     margin-right: 0;
 }
 
-img {
+.main-image img {
     max-width: 400px;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+.main-image img:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #3881f6d6;
+    transform: translateY(-0.5em);
 }
 
 .second-cta {
