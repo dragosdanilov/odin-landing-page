@@ -156,9 +156,11 @@ body {
 }
 
 .second-cta img:hover {
-    border: 4px solid #3882f6;
+    border: 3px solid #3882f6;
     filter: grayscale(60%);
-
+    box-shadow: 0 0.5em 0.5em 0.05em #3881f6d6;
+    transform: translateY(-0.5em);
+    cursor: pointer;
 }
 
 .images-cta p {
