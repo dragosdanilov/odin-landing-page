@@ -35,6 +35,7 @@ body {
     color: #f9faf8;
     font-size: 24px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .links {
@@ -123,6 +124,17 @@ body {
 .main-image img:hover {
     box-shadow: 0 0.5em 0.5em -0.4em #3881f6d6;
     transform: translateY(-0.5em);
+}
+
+.joinOC {
+    text-decoration: none;
+    color: #93b2e4;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.joinOC:hover {
+    color: #3882f6;
 }
 
 .second-cta {
